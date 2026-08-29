@@ -269,6 +269,11 @@ body {
 
 /* ===== 响应式 ===== */
 @media (max-width: 768px) {
+    
+    body {
+        padding: 160px 20px 20px;   /* 增大上边距，防止头部遮挡 */
+    }
+
     .main-layout {
         flex-direction: column;    /* ← 取消注释，改成上下排列 */
         height: auto;              /* 自动高度，整体滚动 */
