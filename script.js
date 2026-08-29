@@ -8,62 +8,55 @@ const siteData = [
             { name: "阿里公告更新", desc: "规则专题首页", url: "https://onetouch.alibaba.com/moBasedata/luyou/home/act/icbu_rules/index"  }
         ]
     },
-        {
+    {
         category: "🧳 ∞ 压缩网址",
         sites: [
             { name: "外贸人工具网", desc: "外贸人工具网", url: "https://ywange.com/tool" },
             { name: "AMZ123", desc: "AMZ123", url: "https://www.amz123.com/" }
         ]
     },
-        {
+    {
         category: "💻 编程学习",
         sites: [
             { name: "菜鸟教程 (Runoob)", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
         ]
     },
-            {
+    {
         category: "💻 编程学习",
         sites: [
             { name: "菜鸟教程 (R", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
         ]
     },
-            {
+    {
         category: "💻 编程学习",
         sites: [
             { name: "菜鸟教程 (Ru", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
         ]
     },
-            {
+    {
         category: "💻 编程学习",
         sites: [
             { name: "菜鸟教程 (Run", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
         ]
     },
-            {
+    {
         category: "💻 编程学习",
         sites: [
             { name: "菜鸟教程 (Runo", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
         ]
     },
-            {
+    {
         category: "💻 编程学习",
         sites: [
             { name: "菜鸟教程 (Runoo", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
         ]
     },
-            {
-        category: "💻 编程学习",
-        sites: [
-            { name: "菜鸟教程 (Runoob", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
-            { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
-        ]
-    },
     {
         category: "💻 编程学习",
         sites: [
@@ -120,8 +113,15 @@ const siteData = [
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
         ]
     },
-            {
-        category: "程学习",
+    {
+        category: "💻 编程学习",
+        sites: [
+            { name: "菜鸟教程 (Runoob", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
+            { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"}
+        ]
+    },
+    {
+        category: "🎨 绘画 & 设计",
         sites: [
             { name: "菜鸟教程 Runoob)", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"},
