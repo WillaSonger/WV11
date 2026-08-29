@@ -270,17 +270,22 @@ body {
 /* ===== 响应式 ===== */
 @media (max-width: 768px) {
     .main-layout {
-        flex-direction: column;
+        flex-direction: column;    /* ← 取消注释，改成上下排列 */
+        height: auto;              /* 自动高度，整体滚动 */
+        overflow: visible;
     }
+
     .sidebar {
         width: 100%;
-        max-height: none;
+        height: auto;              /* 恢复自动高度 */
+        overflow-y: visible;       /* 禁用内部滚动 */
         display: flex;
         flex-wrap: wrap;
         gap: 4px;
         padding: 12px;
         border-radius: 16px;
     }
+
     .category-item {
         padding: 8px 14px;
         border-left: none;
@@ -288,20 +293,27 @@ body {
         background: #f8fafc;
         flex: 0 0 auto;
     }
+
     .category-item.active {
         background: #2563eb;
         color: white;
         border-left: none;
     }
+
     .category-item .badge {
         display: none;
     }
+
     .content {
-        padding: 16px;
+        height: auto;              /* 恢复自动高度 */
+        overflow-y: visible;       /* 禁用内部滚动 */
+        padding: 16px 20px;        /* 保持舒适内边距 */
     }
+
     .site-item {
         flex-wrap: wrap;
     }
+
     .site-name {
         min-width: 80px;
     }
