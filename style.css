@@ -271,7 +271,7 @@ body {
 @media (max-width: 768px) {
 
     body {
-        padding: 180px 20px 20px;   /* 增大上边距，防止头部遮挡 */
+        padding: 180px 20px 20px 20px;   /* 增大上边距，防止头部遮挡 */
     }
 
     .main-layout {
