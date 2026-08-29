@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自选导航 · 目录版</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ===== 顶部搜索栏 ===== -->
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">🧭 自选导航</h1>
+            <div class="search-wrap">
+                <input type="text" id="searchInput" placeholder="搜索网站名称 …" />
+                <button id="searchBtn">🔍</button>
+            </div>
+        </div>
+        <p class="subtitle">点击左侧目录，右侧展示对应网址</p>
+    </header>
+
+    <!-- ===== 主体：左侧目录 + 右侧内容 ===== -->
+    <main class="main-layout">
+        <!-- 左侧目录 -->
+        <aside class="sidebar" id="sidebar">
+            <!-- 由 JS 动态生成分类列表 -->
+        </aside>
+
+        <!-- 右侧内容区 -->
+        <section class="content" id="contentArea">
+            <!-- 由 JS 动态渲染当前分类的站点列表 -->
+            <div class="placeholder">请从左侧选择一个分类</div>
+        </section>
+    </main>
+
+    <!-- ===== 底部 ===== -->
+    <footer class="footer">
+        <p>✨ 自选导航 · 所有网址均为免费资源</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
