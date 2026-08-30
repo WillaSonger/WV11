@@ -181,7 +181,7 @@ body {
     border-radius: 20px;
     padding: 24px 28px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-    border: 1px solid #eef2f6;
+    border: 1px #eef2f6;
     min-height: 0; /* 允许 flex 子项收缩，不再和 max-height 打架 */
     /* 以下为自主新增 */
     max-height: 75vh; 
@@ -215,7 +215,7 @@ body {
     display: flex;
     align-items: baseline;
     padding: 8px 0;
-    border-bottom: 1px dashed #f1f5f9;
+    border-bottom: 1px dashed #8eeba1;
 }
 
 .site-item:last-child {
