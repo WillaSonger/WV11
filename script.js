@@ -30,6 +30,7 @@ const siteData = [
     {
         category: "🧰工具TOOL",
         sites: [
+            { name: "百度网盘", desc: "百度网盘", url: "https://pan.baidu.com/"},
             { name: "Excalidraw", desc: "手绘风格的白板工具，非常适合画架构图、流程图", url: "https://excalidraw.com/"},
             { name: "XMind", desc: "思维导图软件，有助于梳理思路和规划，要登录", url: "https://xmind.cn/"},
             { name: "iLovePDF", desc: "免费功能全面的 PDF 在线处理工具，支持合并、拆分、压缩、转换等", url: "https://www.ilovepdf.com/zh-cn"}
@@ -38,9 +39,11 @@ const siteData = [
     {
         category: "🧲主流社媒平台",
         sites: [
-            { name: "小红书", desc: "年轻人生活社区，UGC 笔记种草，兼具社交、消费决策与电商", url: "https://www.xiaohongshu.com/"},                        
+            { name: "小红书", desc: "年轻人生活社区，UGC 笔记种草，兼具社交、消费决策与电商", url: "https://www.xiaohongshu.com/"},
+            { name: "抖音", desc: "抖抖抖", url: "https://www.douyin.com/"},                     
             { name: "Bilibili (B站)", desc: "“B站大学”，上面有海量的编程教学视频", url: "https://www.bilibili.com/"},
             { name: "知乎", desc: "综合性问答社区", url: "https://www.zhihu.com/"},
+            { name: "SDKDNS 梯子", desc: "梯子", url: "https://4f55c.sdkdns2.com/"},
             { name: "WhatSapp", desc: "WA", url: "https://web.whatsapp.com/"},  
             { name: "Instagram", desc: "INS", url: "https://www.instagram.com/"},
             { name: "Facebook", desc: "FB", url: "https://www.facebook.com/"},
