@@ -14,7 +14,7 @@ const siteData = [
         sites: [
             { name: "外贸人工具网", desc: "外贸人工具网", url: "https://ywange.com/tool" },
             { name: "AMZ123", desc: "AMZ123", url: "https://www.amz123.com/" },
-            { name: "tool.lu", desc: "开发者工具箱，提供代码格式化、加密解密、时间处理、谐音梗", url: "https://tool.lu/"}
+            { name: "tool.lu", desc: "开发者工具箱，提供代码格式化、加密解密、时间处理、谐音梗", url: "https://tool.lu/"}            
         ]
     },
     {
@@ -30,10 +30,11 @@ const siteData = [
     {
         category: "🧰工具TOOL",
         sites: [
-            { name: "百度网盘", desc: "百度网盘", url: "https://pan.baidu.com/"},
+            { name: "百度网盘", desc: "百度网盘", url: "https://pan.baidu.com/"},            
             { name: "Excalidraw", desc: "手绘风格的白板工具，非常适合画架构图、流程图", url: "https://excalidraw.com/"},
             { name: "XMind", desc: "思维导图软件，有助于梳理思路和规划，要登录", url: "https://xmind.cn/"},
-            { name: "iLovePDF", desc: "免费功能全面的 PDF 在线处理工具，支持合并、拆分、压缩、转换等", url: "https://www.ilovepdf.com/zh-cn"}
+            { name: "iLovePDF", desc: "免费功能全面的 PDF 在线处理工具，支持合并、拆分、压缩、转换等", url: "https://www.ilovepdf.com/zh-cn"},
+            { name: "Skillsmp", desc: "按照职业、专业搜索Skill", url: "https://skillsmp.com/"}
         ]
     },
     {
@@ -73,6 +74,11 @@ const siteData = [
         sites: [
             { name: "菜鸟教程 (Runoob)", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "W3School ", desc: "初学者入门Web开发的最佳选择之一", url: "https://www.w3school.com.cn/"},
+            { name: "Scrimba", desc: "Python课：https://www.scrimba.com/learn/python，适合Python 入门，有互动课程、小项目和挑战", url: "https://www.scrimba.com/"},
+            { name: "Codecademy", desc: "Python课：https://www.codecademy.com/projects/language/python，项目练习库，包括练习项目和作品集项目", url: "https://www.codecademy.com/"},
+            { name: "Codecademy", desc: "Beautiful Soup 爬虫项目", url: "https://www.codecademy.com/learn/learn-web-scraping"},            
+            { name: "Real Python", desc: "Python 网页爬虫学习路径", url: "https://realpython.com/learning-paths/python-web-scraping/"},    
+            { name: "Playwright", desc: "专门练“自动操作网页”", url: "https://playwright.dev/"},
             { name: "CSDN", desc: "国内老牌的技术社区，拥有海量的原创技术文章和资料", url: "https://www.csdn.net/"},
             { name: "Stack Overflow", desc: "全球最著名的技术问答社区，遇到编程难题时，在这里几乎总能找到答案", url: "http://stackoverflow.com/"},
             { name: "MDN Web 文档", desc: "Web 开发者的官方权威文档库，由 Mozilla 维护，是查询 HTML、CSS、JavaScript 标准最可靠的地方", url: "https://developer.mozilla.org/zh-CN/"},
@@ -87,6 +93,13 @@ const siteData = [
         sites: [
             { name: "letmeenglish.com", desc: "完全免费英语学习网站", url: "https://letmeenglish.com/zh-hans/"},
             { name: "待更新", desc: "待更新", url: "待更新"}
+        ]
+    },
+    {
+        category: "🧠资料库",
+        sites: [                      
+            { name: "fmhyfreemediaheckyeah", desc: "开源视频书籍等", url: "https://fmhy.net/"},
+            { name: "Zlibrary", desc: "找书", url: "https://z-library.bz/"}
         ]
     },
     //        {
@@ -108,9 +121,13 @@ const siteData = [
             { name: "蕉点AI", desc: "模仿banana", url: "https://www.jiaodianai.com/"},
             { name: "即梦AI", desc: "付费即刻造梦", url: "https://jimeng.jianying.com/"},
             { name: "昵图网", desc: "图片设计素材", url: "https://www.nipic.com/"},
+            { name: "Huaban（花瓣）", desc: "花瓣上的图片很多是转载素材，适合中文关键词找素材", url: "https://huaban.com/"},
             { name: "pexels", desc: "摄影素材", url: "https://www.pexels.com/"},
             { name: "可画canva", desc: "素材", url: "https://www.canva.com/"},
             { name: "pinterest", desc: "素材", url: "https://pinterest.com/"},
+            { name: "PoseMy.Art", desc: "3D pose 工具，可以调整动作、镜头角度、光线和场景，做不到合适的动作时可以自己摆", url: "https://posemy.art/"},            
+            { name: "SKIMA", desc: "日本的插画委托平台，适合研究「商业插画师怎么做表情差分」", url: "https://commission.skima.jp/"},
+            { name: "BOOTH", desc: "有很多日本画师制作的素材，适合找「可临摹的 Q版动作/人体模板」", url: "https://booth.pm/"},
             { name: "菜鸟教程 (Runoob)", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "菜鸟教程 (Runoob)", desc: "主打编程零基础教学", url: "https://www.runoob.com/"},
             { name: "GitHub", desc: "全球最大的代码托管平台", url: "https://github.com/"},
