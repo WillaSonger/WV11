@@ -6,6 +6,7 @@ const siteData = [
         category: "🔍√ 常用网址",
         sites: [
             { name: "阿里公告更新", desc: "规则专题首页", url: "https://onetouch.alibaba.com/moBasedata/luyou/home/act/icbu_rules/index"  },
+            { name: "阿里帮助中心", desc: "阿里国际站帮助中心", url: "https://so.alibaba.com/s/cgs/?spm=a27gg.28352359.0.0.7f553e5fVrJwoI&pageId=121&language=zh"  },
             { name: "Google Trends（谷歌趋势）", desc: "谷歌搜索趋势", url: "https://trends.google.com/home"}
         ]
     },
