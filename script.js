@@ -68,7 +68,11 @@ const siteData = [
             { name: "文心一言 (百度)", desc: "与你对话、回答问题、协助创作，并在文学创作、商业文案、数理推算、中文理解和多模态生成这五大场景中提供强大助力的知识增强大语言模型", url: "https://yiyan.baidu.com"},
             { name: "智谱清言 (智谱AI)", desc: "在编程和完成复杂任务方面表现突出", url: "https://chatglm.cn/"},
             { name: "腾讯元宝 (腾讯)", desc: "一款深度整合微信、腾讯文档等腾讯生态的全能AI助手，支持AI搜索、文档处理、图片视频生成等多种功能", url: "https://yuanbao.tencent.com/"},
-            { name: "扣子", desc: "组建、管理虚拟AI团队，让多个AI像同事一样分工协作，共同完成复杂任务的智能平台", url: " https://www.coze.cn/task/7618061058796421395?from=space_self_intro"}
+            { name: "扣子", desc: "组建、管理虚拟AI团队，让多个AI像同事一样分工协作，共同完成复杂任务的智能平台", url: " https://www.coze.cn/task/7618061058796421395?from=space_self_intro"},
+            { name: "DEEPSKILL", desc: "???", url: "https://www.deepskill.market/"},
+            { name: "skillhub", desc: "???", url: "https://skillhub.cn/skills/user_a92b64bc/deep-skill-finder"},
+            { name: "deep-skill-finder", desc: "???", url: "https://github.com/wheelry/deep-skill-finder"},
+            { name: "skill", desc: "???", url: "https://clawhub.ai/lintong123/skills/deep-skill-finder"},
         ]
     },
     {
