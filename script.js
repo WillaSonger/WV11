@@ -8,7 +8,8 @@ const siteData = [
             { name: "阿里公告更新", desc: "规则专题首页", url: "https://onetouch.alibaba.com/moBasedata/luyou/home/act/icbu_rules/index"  },
             { name: "阿里帮助中心", desc: "阿里国际站帮助中心", url: "https://so.alibaba.com/s/cgs/?spm=a27gg.28352359.0.0.7f553e5fVrJwoI&pageId=121&language=zh"  },
             { name: "外贸云课程", desc: "阿里国际站外贸云课程", url: "https://peixun.alibaba.com/?spm=a27gg.28352359.0.0.7f553e5fVrJwoI"  },
-            { name: "Google Trends（谷歌趋势）", desc: "谷歌搜索趋势", url: "https://trends.google.com/home"}
+            { name: "Google Trends（谷歌趋势）", desc: "谷歌搜索趋势", url: "https://trends.google.com/home"},
+            { name: "answerthepublic|市场调研", desc: "调查产品在海外有没有市场", url: "https://answerthepublic.com/en"}
         ]
     },
     {
@@ -28,7 +29,14 @@ const siteData = [
             { name: "亚马逊帮助", desc: "亚马逊帮助，需要登陆", url: "https://sellercentral.amazon.com/help/hub/reference/G2"}
         ]
     },
-
+    {
+        category: "🔔 常用网址",
+        sites: [
+            { name: "Google Trends（谷歌趋势）", desc: "谷歌搜索趋势", url: "https://trends.google.com/home"},
+            { name: "answerthepublic|市场调研", desc: "调查产品在海外有没有市场", url: "https://answerthepublic.com/en"},
+            { name: "similarweb|市场调研", desc: "调查产品在海外有没有市场", url: "https://www.similarweb.com/"}
+        ]
+    },
     {
         category: "🧰工具TOOL",
         sites: [
@@ -72,7 +80,7 @@ const siteData = [
             { name: "DEEPSKILL", desc: "???", url: "https://www.deepskill.market/"},
             { name: "skillhub", desc: "???", url: "https://skillhub.cn/skills/user_a92b64bc/deep-skill-finder"},
             { name: "deep-skill-finder", desc: "???", url: "https://github.com/wheelry/deep-skill-finder"},
-            { name: "skill", desc: "???", url: "https://clawhub.ai/lintong123/skills/deep-skill-finder"},
+            { name: "ClawHub skill", desc: "???", url: "https://clawhub.ai/lintong123/skills/deep-skill-finder"},
         ]
     },
     {
